@@ -1,2 +1,5 @@
-var ham = 0
-console.log(ham)
+
+function explode(){
+    console.log("boom")
+    ChangeImage('Upgrade1',"nothing.png");
+}

@@ -6,11 +6,14 @@
 
     <body> 
         <div id = "bomb" onclick="explode()">
-            <img id="Upgrade1" src="StrongFinger.png" width="50px"/></div>
-        <p></p>
-         <div id = "UpgradeTwo" onclick="UpgradeTwo()"> 
-            <img id="Upgrade2" src="Booster.png" width="75px"/></div>
-         <div id = "UpgradeThree" onclick="UpgradeThree()">
-            <img id="Upgrade3" src="PowderBag.png" width="75px"/></div>
+            <img id="Upgrade1" src="BombWall.png" width="1000px"/></div>
+
+            <script>
+                function ChangeImage(OriginalPicture,NewPicture){// Her har vi en funktion der fanger billedets id og ændrer det til et nyt når man har nok af upgraden
+                    var image = document.getElementById(OriginalPicture);//Her fanger vi det billed vi starter med
+                    image.src = NewPicture;// Her ændrer vi billedet til det nye
+                
+                    }
+            </script>
     </body>
 </html>
